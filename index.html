@@ -14,88 +14,116 @@
 <body>
     <nav class="navbar navbar-fixed-top" role="navigation">
     	<div class="container">
-    		<div class="navbar-header">
-    		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#brand">
-    		    	<span class="sr-only">切换导航</span>
-    		    	<span class="icon-bar"></span>
-    		    	<span class="icon-bar"></span>
-    		    	<span class="icon-bar"></span>
-    		    </button>
-    			<a class="navbar-brand" href="index.html">KvietaWorld</a>
-    		</div>
-
-    		<div class="collapse navbar-collapse nav-list" id="brand">
-    			<ul class="nav navbar-nav">
-    				<li><a href="#primary-business">主营业务</a></li>
-    				<li><a href="#case">成功案例</a></li>
-    				<li><a href="#partner">合作伙伴</a></li>
-    				<li><a href="#">博客</a></li>
-    				<li><a href="#about">关于K.W社</a></li>
-    			</ul>
-    		</div>
+            <div class="home-top">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#brand">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">KvietaWorld</a>
+                </div>
+    
+                <div class="collapse navbar-collapse nav-list" id="brand">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#primary-business">主营业务</a></li>
+                        <li><a href="#case">成功案例</a></li>
+                        <li><a href="#partner">合作伙伴</a></li>
+                        <li><a href="#">博客</a></li>
+                        <li><a href="#about">关于K.W社</a></li>
+                    </ul>
+                </div>                
+            </div>
     	</div>
     </nav>
 
     <div class="middle">
-    	<img src="imgs/home.jpg">
+        <img src="imgs/home.jpg" class="home-img">
+        <div class="welcome-text">
+            <h1>Welcome your coming</h1>
+            <h1>K.W社</h1>
+        </div>
     </div>
 
     <div class="container">
         <div id="primary-business" class="primary-business">
             <h3>主营业务</h3>
             <hr>
-            <h6>Primary Business</h6>
-        	<div>PC端软件开发</div>
-        	<div>网站论坛搭建</div>
-        	<div>APP开发</div>
-        	<div>大数据采集</div>
+            <div class="row">
+                <div class="col-lg-6 col-xs-6">
+                    <div class="business-1">
+                        <img src="imgs/computer.jpg">
+                        <p>PC端软件开发</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-6">
+                    <div class="business-2">
+                        <img src="imgs/dialog.jpg">
+                        <p>网站论坛搭建</p>
+                    </div>
+                </div>               
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-xs-6">
+                    <div class="business-2">
+                        <img src="imgs/app.jpg">
+                        <p>APP开发</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-6">
+                    <div class="business-1">
+                        <img src="imgs/book.jpg">
+                        <p>大数据采集</p>
+                    </div>
+                </div>                
+            </div>
         </div>
     
         <div id="case" class="case">
         	<h3>成功案例</h3>
         	<hr>
-        	<h6>Successfull Cases</h6>
-        	<img src="#">
-        	<img src="#">
-        	<img src="#">
+            <div class="row">
+                <img src="imgs/case1.png" class="col-lg-4 col-xs-4">
+                <img src="imgs/case2.png" class="col-lg-4 col-xs-4">
+                <img src="imgs/case3.png" class="col-lg-4 col-xs-4">
+            </div>
         </div>
     
         <div id="partner" class="partner">
         	<h3>合作伙伴</h3>
         	<hr>
-        	<h6>Partners</h6>
-        	<div>吾爱破解</div>
-        	<div>精易论坛</div>
-        	<div>66RPG</div>
-        	<div>中国电脑技术联盟</div>
+            <ul>
+                <li class="col-lg-3">吾爱破解</li>
+                <li class="col-lg-3">精易论坛</li>
+                <li class="col-lg-3">66RPG</li>
+                <li class="col-lg-3">中国电脑技术联盟</li>
+            </ul>
         </div>
     
         <div id="about" class="about">
         	<h3>关于K.W社</h3>
+            <hr>
+            <p>团队创建于2010年12月，长达七年的开发经验应对不同的开发需求，保证客户的利益。成员均来自各自领域的高手，从网页搭建到软件开发，漏洞分析到攻防演练，都是业内精英。现项目技术负责人拥有多年的内核渗透和软件开发经验，带领团队走向成功。团队自创建以来经历风风雨雨，留下来的都是技术可靠、人品可信的优秀成员。</p>
         </div>
 
         <div class="contact">
         	<h3>联系我们</h3>
-        	<hr>
-        	<h6>Contact Us</h6>
-        	<span>qq：1060682812</span>
-        	<span>微信：kvietaxinling</span>
+            <hr>
+            <div class="col-lg-6 col-xs-6">
+                <div class="contact-direct">
+                    <img src="imgs/timg.jpg">
+                    <p>1060682812</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xs-6">
+                <div class="contact-direct">
+                    <img src="imgs/wechat.jpg">
+                    <p>kvietaxinling</p>
+                </div>
+            </div>
         </div>
     </div>
-
-
-
-
-    <!-- <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-    	<div class="container">
-    		<div class="contact">
-    		    <h3>联系我们</h3>
-    		    <hr>
-    		    <h6>Contact Us</h6>
-    			<span>qq：1060682812</span>
-    			<span>微信：kvietaxinling</span>
-    		</div>
-    	</div>
-    </nav> -->
 </body>
 </html>
